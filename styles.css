@@ -101,23 +101,24 @@ body {
 /* Card styles */
 .cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
     padding: 30px;
 }
 
 .card {
-    background-color: #1f213f;
+    background-color: hsl(236, 35%, 18%);
     padding: 20px;
+    transition: all 0.4s ease-in-out;
     border-radius: 12px;
-    width: 300px;
+    width: 100%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .card img {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 5px;
+    width: 100%;
     object-fit: cover;
     margin-bottom: 10px;
 }
@@ -163,6 +164,10 @@ body {
     }
 }
 
+.empty {
+    all: unset;
+    cursor: pointer;
+}
 /* Apply staggered delays for each child element */
 .fade-in > div {
     animation-delay: 0.2s;
@@ -179,6 +184,11 @@ body {
     animation-delay: 0.8s; /* Delay for social links */
 }
 
+.card:hover {
+    background-color: hsl(236, 36%, 30%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Add a stronger shadow */
+    /* transform: scale(1.05);  */
+}
 /* .fade-in > .social-links > a {
     opacity: 0;
     transform: translateY(20px);

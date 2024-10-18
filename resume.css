@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom,  #c1bed8, #f9e5e5,); /* Same background */
+    background: linear-gradient(to bottom,  #9f9dac, #f9e5e5,); /* Same background */
     min-height: 100vh; /* Ensures the body is at least the height of the viewport */
     margin: 0;
     padding: 0;
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .resume-container {
     padding: 20px;
@@ -183,7 +183,7 @@ ul {
 }
 
 .download-button button {
-    background-color: #2d2f92; /* Green background */
+    background-color: #7779cf; /* Green background */
     color: white; /* White text */
     padding: 10px 20px;
     font-size: 1.2em;

@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projects - Kai Karadi Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Daniel Huang</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include icons from Font Awesome or similar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Projects</h1>
-            <nav>
-                <ul>
+    <main>
+        <div class="hero">
+            <div class="fade-in">
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+                <div class="header">
+                    <h1>Projects</h1>
+                </div>
+                <section class="cards">
+                    <a class="empty" href="https://github.com/KKaradi/cloudy.ai">
+                        <div class="card" href="https://github.com/KKaradi/cloudy.ai">
+                            <img src="example4.png" alt="Ai art generator text">
+                            <!-- <img src="example2.png" alt="Ai art generator text"> -->
+                            <p><strong>Cloudy Ai</strong></p>
+                            <p>Cloudy.ai provides a new UI for comfy ui that supports nodal image generation where every
+                                image thats generated may be iterated upon in a branching structure.
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3><a href="project1.html">Project 1</a></h3>
-                <p>Short description of project 1.</p>
-            </div>
-            <div class="project">
-                <h3><a href="project2.html">Project 2</a></h3>
-                <p>Short description of project 2.</p>
-            </div>
-            <div class="project">
-                <h3><a href="project3.html">Project 3</a></h3>
-                <p>Short description of project 3.</p>
-            </div>
-        </div>
-    </section>
+                                Cloudy.ai is built ontop of a comfy ui server that is run through a flask server which
+                                works
+                                with a next.js frontend</p>
+                        </div>
+                    </a>
+                    <a class="empty" href="https://github.com/KKaradi/LanguageCoach.ai">
+                        <div class="card">
+                            <img src="example1.png" alt="Ai language coach">
+                            <p><strong>Language Coach Ai</strong></p>
+                            <p>LanguageCoach.ai is an ai powered language coach that can help you in your journey of
+                                learning a new language, with real live conversations where you can speak to the website
+                                and
+                                the website can speak back. It is built using LLMs, speach to text and text to speach,
+                                you
+                                can create custom role playing scenarios in a variety of languages. In a world where
+                                getting
+                                finding a native language speaker or teacher can be unaccessible language coach allows
+                                you
+                                to create your own speaking partner to practice with. Currenlty Spanish, English,
+                                Japanese,
+                                Chinese and French are supported.
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Kai Karadi. All rights reserved.</p>
+                                The website comes with a default coffee shop scneario where our coach will role play as
+                                a
+                                barista and ask you for your coffee order in the language of choice. Its your job to
+                                describe your coffee order in the selected language and continue the conversation
+
+                            </p>
+                        </div>
+                    </a>
+                    <a class="empty" href="https://github.com/KKaradi/Story.ai">
+                        <div class="card">
+                            <img src="example3.png" alt="Ai story generator">
+                            <p><strong>Story Ai</strong></p>
+                            <p>Story Ai is a ai dungeon inspired role playing game with a diffusion art model twist</p>
+                        </div>
+                    </a>
+
+
+                </section>
+                <div class="social-links">
+                    <a href="https://github.com/KKaradi"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kai-karadi-a68340226/"><i class="fab fa-linkedin"></i></a>
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-spotify"></i></a> -->
+                    <a href="mailto:kaikaradi23@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
         </div>
-    </footer>
+    </main>
+
 </body>
+
 </html>
